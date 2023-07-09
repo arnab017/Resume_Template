@@ -1,0 +1,192 @@
+body{
+    background: rgb(174,235,238);
+    background: radial-gradient(circle, rgba(174,235,238,1) 0%, rgba(0,74,161,1) 100%);
+}
+img{
+    max-width: 50%;
+}
+.pic{
+    text-align: center;
+}
+.container{
+    background-color: white;
+    width: 80%;
+    margin: 40px auto;
+    padding: 40px 40px 0 40px;
+    transition: .5s;
+}
+.container:hover{
+    box-shadow: -20px 20px 30px black;
+}
+.row{
+    padding-bottom: 20px;
+}
+h1{
+    transition: 2s;
+}
+h1:hover{
+    color: yellowgreen;
+}
+h2{
+    font-weight: 600;
+    transition: .5s;
+}
+h2:hover{
+    color: rgb(126, 228, 9);
+    transform: translate(-5px,-5px);
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+a:hover{
+    color: rgb(152, 152, 240);
+}
+.hl{
+    border-top: 1px solid black;
+    width: 40%;
+    margin-bottom: 20px;
+}
+.hb{
+    border-top: 1px solid white;
+    width: 60%;
+    margin-bottom: 20px;
+}
+.ach{
+    color: rgb(109, 109, 109);
+}
+h1{
+    font-weight: 500;
+    font-size: 4em;
+}
+h2{
+    display: inline-block;
+}
+i{
+    font-size: 2em;
+    transition: .6s;
+}
+i:hover{
+    color: rgb(126, 228, 9);
+    transform: translate(-5px,-5px);
+}
+.progress{
+    height: 10px;
+}
+.sigp{
+    position: relative;
+}
+.sig{
+    position: absolute;
+    right: 20px;
+    bottom: -40px;
+}
+.right-box-1,.box-2{
+    background-color: #2d2d2e;
+    color: white;
+    border-radius: 20px;
+    padding: 40px 10px;
+    transition: .6s;
+}
+.right-box-1:hover, .box-2:hover{
+    box-shadow: -20px 20px 30px grey;
+    background-color: rgb(3, 70, 116);
+}
+.box-2{
+    padding: 40px;
+    height: 900px;
+}
+.right-box-1{
+    margin-bottom: 20px;
+}
+.right-box-1 i{
+    font-size: 1.2em;
+    margin:0 10px 20px 20px;
+}
+.left{
+    padding: 0 10px 0 0;
+}
+
+
+
+
+@media (max-width: 992px) {
+
+    .container{
+        min-width: 100%;
+        margin: 0;
+    }
+    .sig{
+        position: absolute;
+        right: 20px;
+    }
+
+} 
+
+@media (max-width: 892px) {
+
+    .container{
+        padding-bottom: 10px;
+    }
+    .sig{
+        position: absolute;
+        right: 20px;
+        bottom: -30px;
+    }
+    .box-2{
+        padding: 40px;
+        height: 1200px;
+    }
+
+} 
+
+@media (max-width: 768px) {
+
+    body{
+        font-size: .8em;
+    }
+    .box-2{
+        padding: 40px;
+        height: 1100px;
+    }
+    
+
+} 
+
+@media (max-width: 690px) {
+
+    .box-2{
+        padding: 20px;
+        height: 900px;
+    }
+    .sig{
+        position: absolute;
+        right: 20px;
+        bottom: -10px;
+    }
+    .box-2{
+        padding: 40px;
+        height: 1200px;
+    }
+    body{
+        font-size: .9em;
+    }
+    img{
+        width: 300px;
+    }
+
+} 
+
+@media (max-width: 470px) {
+
+    .sig{
+        position: absolute;
+        right: 20px;
+        bottom: -20px;
+    }
+    .box-2{
+        padding: 40px;
+        height: min-content;
+    }
+} 
